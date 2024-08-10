@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "df343sdf";
+const apiKey = env.API_KEY;
 require('dotenv').config();
 console.log(process.env);
 
