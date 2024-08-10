@@ -2,6 +2,8 @@ const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
 const apiKey "";
+require('dotenv').config();
+console.log(process.env);
 
 weatherForm.addEventListener("submit", event => {
 
