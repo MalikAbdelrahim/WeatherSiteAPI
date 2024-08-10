@@ -13,6 +13,7 @@ weatherForm.addEventListener("submit", event => {
         try
         {
             const weatherData = await getWeatherData(city);
+            displayWeatherInfo(weatherData);
         }
         catch(error)
         {
@@ -29,7 +30,7 @@ weatherForm.addEventListener("submit", event => {
 
 async function getWeatherData(city)
 {
-
+    const apiUrl = ``;
 }
 
 function displayWeatherInfo(data)
