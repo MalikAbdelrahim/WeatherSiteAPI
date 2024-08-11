@@ -99,24 +99,6 @@ p
     color: hsla(0,0%,.75);
 }
 
-@keyframes slideRight{
-    from {
-        transform: translateX(-100%);
-    }
-    to
-    {transform: translateX(0px)}
-}
-@keyframes grow{
-    from {
-        transform: scale(0.5); /* Start at half the size */
-        opacity: 0; /* Optional: start invisible */
-    }
-    to {
-        transform: scale(1); /* End at the original size */
-        opacity: 1;
-    }
-}
-
 @keyframes combinedAnimation {
     from {
         transform: translateX(-100%) scale(0.5); /* Combine initial transforms */
